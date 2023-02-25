@@ -1,0 +1,30 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.slides {
+  display: flex;
+}
+.slide_img {
+  width: 84px;
+  height: 82px;
+  cursor: pointer;
+  margin: 0 10px;
+  opacity: .6;
+}
+.slide_img.active {
+  opacity: 1;
+}
+.arrow {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+  color: rgb(63, 63, 63);
+  user-select: none;
+}
+.arrow:hover {
+  color: black;
+}

@@ -1,0 +1,21 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.photo {
+  width: 558px;
+  height: 549px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+

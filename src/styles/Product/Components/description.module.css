@@ -1,0 +1,36 @@
+.arrow {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+  color: rgb(63, 63, 63);
+  user-select: none;
+}
+.description {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.description .title {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgb(170, 170, 170) 33%, rgba(255, 0, 0, 0) 0%);
+  background-position: bottom;
+  background-size: 8px 3px;
+  background-repeat: repeat-x;
+  padding: 10px 0;
+  user-select: none;
+  cursor: pointer;
+}
+.desc {
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: default;
+}
+.description .arrow {
+  font-weight: lighter;
+  transform:rotate(90deg);
+}
+.description.active .arrow {
+  transform:rotate(0deg);
+}

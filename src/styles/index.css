@@ -50,3 +50,9 @@ code {
     transform: rotate(360deg);
   }
 }
+.img {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

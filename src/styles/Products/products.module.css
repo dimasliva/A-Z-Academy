@@ -1,0 +1,6 @@
+.products {
+  background-color: #dc3545;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
